@@ -6,7 +6,6 @@ import os
 def setup(args):
     # os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     
-
     constant.RADIUS = args.radius
     constant.LAYER_HIDDEN = args.layer_hidden
     constant.LAYER_OUTPUT = args.layer_output

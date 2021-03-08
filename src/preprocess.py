@@ -5,7 +5,7 @@ import pandas as pd
 from collections import defaultdict
 from rdkit import Chem
 
-np.random.seed(1234)  # fix the seed for shuffle.
+np.random.seed(2345) 
 
 
 class SmilesEnumerator(object):

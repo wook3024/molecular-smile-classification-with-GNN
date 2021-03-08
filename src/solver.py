@@ -16,10 +16,8 @@ from tqdm import tqdm
 from torch.optim.lr_scheduler import StepLR, ExponentialLR
 from warmup_scheduler import GradualWarmupScheduler
 
-
 np.random.seed(2345)
 torch.manual_seed(2345)
-
 
 
 class MolDataset(Dataset):

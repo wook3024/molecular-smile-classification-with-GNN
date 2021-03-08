@@ -4,8 +4,6 @@ import numpy as np
 import torch.nn.functional as F
 
 
-
-
 class SkipConnection(nn.Module):
     '''Used to obtain the same effect as the skip connection used in the existing CNN
     https://github.com/heartcored98/Standalone-DeepLearning-Chemistry
